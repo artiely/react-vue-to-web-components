@@ -6,7 +6,6 @@ export default defineConfig({
     "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV),
   },
   plugins: [vue()],
-  "process.env.NODE_ENV": "production",
   build: {
     outDir: "demo/dist",
     target: "esnext",
